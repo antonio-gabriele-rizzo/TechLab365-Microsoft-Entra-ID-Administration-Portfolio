@@ -1,340 +1,407 @@
-# TechLab Microsoft Entra ID Administration Portfolio
+<p align="center">
+  <img src="logo/techlab365-logo.png" alt="TechLab365" width="250">
+</p>
 
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![Platform](https://img.shields.io/badge/Platform-Microsoft%20Entra%20ID-0078D4)
-![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE)
-![Portfolio](https://img.shields.io/badge/Portfolio-Project-success)
-
-## About This Project
-
-Welcome to my TechLab Microsoft Entra ID Administration Portfolio.
-
-This repository documents my hands-on learning journey in Microsoft Entra ID administration using the same Microsoft 365 tenant developed throughout the TechLab Microsoft 365 Portfolio.
-
-The purpose of this project is threefold:
-
-1. Develop practical Microsoft Entra ID administration skills.
-2. Build a professional portfolio demonstrating real-world identity management tasks.
-3. Create a personal technical reference and learning resource that can be revisited in the future.
-
-Every section is documented using step-by-step procedures, screenshots, explanations, and practical examples to support both learning and future reference.
+<p align="center">
+  <img src="logo/entra-id-administration-title.png" alt="Microsoft Entra ID Administration Portfolio">
+</p>
 
 ---
 
-## TechLab Portfolio Series
+# Project Overview
 
-This repository is part of the TechLab portfolio series, a collection of hands-on IT administration projects focused on Microsoft cloud technologies, identity management, endpoint administration, automation, networking, and IT support.
+This repository documents my hands-on Microsoft Entra ID Administration laboratory, developed within a dedicated Microsoft 365 tenant to gain practical experience with identity and access management in Microsoft's cloud environment.
 
-### Current Projects
+The project explores the day-to-day responsibilities of a Microsoft Entra Administrator, including tenant administration, user and group management, authentication methods, role-based access control (RBAC), Conditional Access, self-service password reset (SSPR), device identities and identity governance.
 
-- TechLab Microsoft 365 Portfolio
-- TechLab Microsoft Entra ID Administration Portfolio
+Rather than simply describing Microsoft Entra ID features, every chapter documents practical configuration activities carried out within a working tenant. Each exercise is supported by detailed explanations and annotated screenshots, demonstrating how identity management and security controls are implemented in a real-world environment.
 
-### Planned Projects
-
-- TechLab Microsoft Intune Administration Portfolio
-- TechLab Active Directory Administration Portfolio
-- TechLab Service Desk Troubleshooting Portfolio
+This repository represents the second project within my **TechLab365 Microsoft Cloud Administration Portfolio**, building upon the Microsoft 365 Administration repository and providing the identity foundation required before implementing endpoint management with Microsoft Intune.
 
 ---
 
-## Objectives
+# Project Objectives
 
-- Understand Microsoft Entra ID fundamentals
-- Learn cloud identity management concepts
-- Manage users and groups
-- Explore administrative roles and delegated permissions
-- Configure and understand Multi-Factor Authentication (MFA)
-- Manage passwords and account recovery
-- Review sign-in and audit logs
-- Learn Microsoft Graph PowerShell administration
-- Perform identity troubleshooting and investigation
-- Build professional technical documentation using GitHub and Markdown
-- Create a reusable Microsoft Entra ID administration reference guide
+The primary objective of this project is to develop practical administration skills using Microsoft Entra ID while documenting the complete configuration process through professional technical documentation.
 
----
+Throughout this repository, I demonstrate how to:
 
-## Environment
-
-| Setting | Value |
-|----------|----------|
-| Tenant Name | TechLab |
-| Platform | Microsoft Entra Admin Center |
-| Licence | Microsoft Entra ID Free |
-| Purpose | Learning, Documentation and Portfolio Development |
+- Understand Microsoft Entra ID architecture and administration.
+- Manage users, groups and administrative roles.
+- Configure authentication methods and password management.
+- Implement Multi-Factor Authentication (MFA).
+- Configure Self-Service Password Reset (SSPR).
+- Deploy and manage Conditional Access policies.
+- Explore device identities and Microsoft Entra joined devices.
+- Implement identity governance features.
+- Document Microsoft Entra administration using GitHub and Markdown.
 
 ---
 
-## Project Structure
+# Skills Demonstrated
 
-### 01 – Identity Overview
+During this project I developed practical experience with the core identity and access management capabilities available in Microsoft Entra ID.
 
-Introduction to Microsoft Entra ID and cloud identity management.
+The laboratory focused on implementing administrative tasks commonly performed by Identity Administrators within enterprise environments while reinforcing Microsoft security best practices.
 
-Topics covered:
+The principal skills demonstrated include:
 
-- Microsoft Entra ID fundamentals
-- Identity management concepts
-- Authentication vs Authorisation
+- Microsoft Entra ID administration
+- Identity and access management (IAM)
+- User and group administration
+- Administrative role management (RBAC)
+- Multi-Factor Authentication (MFA)
+- Self-Service Password Reset (SSPR)
+- Conditional Access policy configuration
+- Device identity management
+- Identity governance
+- Microsoft cloud security
+- Microsoft 365 tenant administration
+- Technical documentation using Markdown and GitHub
+
+---
+
+# Technologies Used
+
+The following Microsoft technologies and services are used throughout this repository:
+
+| Technology | Purpose |
+|------------|---------|
+| Microsoft Entra ID | Identity and access management |
+| Microsoft 365 Admin Center | Tenant administration |
+| Microsoft Entra Admin Center | Identity administration |
+| Microsoft Authenticator | Multi-Factor Authentication |
+| Conditional Access | Identity-based access protection |
+| Self-Service Password Reset (SSPR) | Password recovery |
+| Microsoft Graph | Identity management platform |
+| Microsoft Graph PowerShell | Administrative automation |
+| GitHub | Repository hosting |
+| Markdown | Technical documentation |
+
+---
+
+# Lab Environment
+
+The practical exercises documented throughout this repository were performed using the following laboratory environment:
+
+| Component | Configuration |
+|-----------|---------------|
+| Tenant | Microsoft 365 Developer Tenant |
+| Identity Platform | Microsoft Entra ID |
+| Subscription | Microsoft 365 Developer Program |
+| Administration Portal | Microsoft Entra Admin Center |
+| Documentation | GitHub Markdown |
+| Browser | Microsoft Edge |
+
+---
+
+# Repository Structure
+
+```text
+TechLab365-Microsoft-Entra-ID-Administration-Portfolio/
+│
+├── 01-Tenant-Overview/
+├── 02-User-Management/
+├── 03-Group-Management/
+├── 04-Administrative-Roles/
+├── 05-Multi-Factor-Authentication/
+├── 06-Self-Service-Password-Reset/
+├── 07-Conditional-Access/
+├── 08-Device-Management/
+├── 09-Identity-Governance/
+│
+├── logo/
+│   ├── techlab365-logo.png
+│   └── entra-id-administration-title.png
+│
+└── README.md
+```
+
+---
+
+# Chapter Overview
+
+The repository is organised into nine chapters that follow a logical progression from Microsoft Entra ID fundamentals through identity protection, device management and governance features.
+
+## 01 – Microsoft Entra ID Overview
+
+The repository begins with an introduction to Microsoft Entra ID, Microsoft's cloud-based identity and access management (IAM) platform. This chapter explores the Microsoft Entra Admin Center, reviews the tenant configuration and introduces the core concepts that underpin identity management across Microsoft cloud services.
+
+### Topics covered
+
+- Microsoft Entra ID overview
+- Identity and Access Management (IAM)
 - Microsoft Entra Admin Center
-- Accessing the Entra portal
-- User management overview
+- Tenant overview
+- Tenant properties
+- Licensing overview
+- Microsoft Entra architecture
 
-Skills developed:
+### Skills developed
 
-- Identity and Access Management (IAM) fundamentals
-- Cloud identity concepts
-- Microsoft Entra navigation
+- Microsoft Entra administration
+- Identity management fundamentals
+- Tenant administration
+- Microsoft cloud identity
 
 ---
 
-### 02 – User Management
+## 02 – User Management
 
-User lifecycle administration within Microsoft Entra ID.
+User accounts form the foundation of every Microsoft Entra tenant. This chapter demonstrates how to create, manage and administer users, configure user properties and assign licences while exploring the lifecycle of cloud identities.
 
-Topics covered:
+### Topics covered
 
-- User creation
+- User accounts
+- Creating users
 - User properties
-- Password reset
-- Account enable and disable
-- User deletion
-- User restoration
-
-Skills developed:
-
+- Password management
+- Licence assignment
 - User administration
-- Identity management
+- Bulk operations
+
+### Skills developed
+
 - User lifecycle management
+- Identity administration
+- Licence management
+- Microsoft Entra administration
 
 ---
 
-### 03 – Group Management
+## 03 – Group Management
 
-Group administration and membership management.
+Groups simplify access management by allowing permissions and licences to be assigned collectively. This chapter explores Microsoft Entra security groups and Microsoft 365 Groups, demonstrating group creation, membership management and dynamic group capabilities.
 
-Topics covered:
+### Topics covered
 
-- Security Groups
+- Security groups
 - Microsoft 365 Groups
-- Group creation
+- Group membership
+- Dynamic groups
 - Group ownership
-- Membership management
+- Group administration
 
-Skills developed:
+### Skills developed
 
 - Group administration
-- Membership management
 - Access management
+- Identity organisation
+- Microsoft Entra administration
 
 ---
 
-### 04 – Introduction to Administrative Roles
+## 04 – Administrative Roles
 
-Introduction to delegated administration and RBAC.
+Role-Based Access Control (RBAC) enables organisations to delegate administrative responsibilities securely. This chapter demonstrates how built-in Microsoft Entra roles are assigned and managed while applying the principle of least privilege.
 
-Topics covered:
+### Topics covered
 
-- Global Administrator
-- Helpdesk Administrator
-- RBAC
-- Delegated administration
-- Principle of Least Privilege
+- Role-Based Access Control (RBAC)
+- Built-in administrator roles
+- Role assignments
+- Least privilege
+- Administrative delegation
 
-Skills developed:
+### Skills developed
 
-- Administrative role management
-- Access management
-- Security administration
+- RBAC administration
+- Privileged access management
+- Administrative delegation
+- Security best practices
 
 ---
 
-### 05 – Multi-Factor Authentication (MFA)
+## 05 – Multi-Factor Authentication (MFA)
 
-Identity security and authentication methods.
+Multi-Factor Authentication provides an additional layer of protection by requiring users to verify their identity using more than one authentication factor. This chapter demonstrates how MFA is configured and enforced within Microsoft Entra ID.
 
-Topics covered:
+### Topics covered
 
-- MFA fundamentals
+- Multi-Factor Authentication
 - Authentication methods
 - Microsoft Authenticator
 - MFA registration
-- Security best practices
+- MFA enforcement
+- Authentication security
 
-Skills developed:
+### Skills developed
 
-- Identity security
 - MFA administration
+- Identity protection
 - Authentication management
+- Microsoft security
 
 ---
 
-### 06 – Password Management
+## 06 – Self-Service Password Reset (SSPR)
 
-Password administration and account recovery.
+Self-Service Password Reset (SSPR) enables users to securely reset or unlock their passwords without requiring assistance from the IT Help Desk. This chapter demonstrates how to configure SSPR, define authentication methods and verify the end-user password reset experience.
 
-Topics covered:
+### Topics covered
 
-- Password reset
-- Temporary passwords
-- Account recovery
-- Session revocation
+- Self-Service Password Reset (SSPR)
 - Authentication methods
+- Password reset registration
+- User notifications
+- SSPR configuration
+- Password recovery workflow
 
-Skills developed:
+### Skills developed
 
-- Password administration
-- User support
-- Authentication troubleshooting
-
----
-
-### 07 – Monitoring and Audit Logs
-
-Monitoring and troubleshooting identity activity.
-
-Topics covered:
-
-- Sign-in Logs
-- Audit Logs
-- Log filtering
-- Password reset investigations
-- Administrative accountability
-
-Skills developed:
-
-- Identity monitoring
-- Audit log analysis
-- Security monitoring
-
----
-
-### 08 – Basic Microsoft Graph PowerShell
-
-Microsoft Graph administration using PowerShell.
-
-Topics covered:
-
-- Microsoft Graph module
-- Connect-MgGraph
-- Get-MgContext
-- Get-MgUser
-- Get-MgGroup
-- Disconnect-MgGraph
-
-Skills developed:
-
-- Microsoft Graph administration
-- PowerShell administration
-- Cloud administration
-
----
-
-### 09 – Troubleshooting Scenarios
-
-Practical Microsoft Entra ID troubleshooting and investigation workflows.
-
-Topics covered:
-
-- Sign-in investigations
-- Sign-in log filtering
-- Authentication troubleshooting
-- Disabled account identification
-- Account enablement
-- Password reset troubleshooting
-- User support workflows
-- Administrative problem resolution
-
-Skills developed:
-
-- Troubleshooting methodology
-- Incident investigation
-- Service Desk procedures
-- Authentication troubleshooting
-- Identity administration
-- Root cause analysis
-
----
-
-## Documentation Methodology
-
-Each section follows a consistent documentation structure:
-
-- Objectives
-- Step-by-step procedures
-- Screenshots and evidence
-- Technical explanations
-- Administrative tasks performed
-- Key learnings
-- Skills developed
-
-The goal is to ensure that every documented task can be reproduced in the future and used as a practical reference guide.
-
----
-
-## Skills Demonstrated
-
-### Identity Administration
-
-- User lifecycle management
-- Group administration
 - Password management
-- Administrative role assignment
-
-### Security Administration
-
-- Multi-Factor Authentication (MFA)
-- Authentication methods
-- Sign-in monitoring
-- Audit log analysis
-
-### Automation
-
-- Microsoft Graph PowerShell
-- Administrative reporting
-- Administrative automation
-
-### Professional Skills
-
-- Technical Documentation
-- GitHub Version Control
-- Markdown Documentation
-- Troubleshooting Methodology
+- Identity administration
+- Authentication configuration
+- Microsoft Entra security
 
 ---
 
-## Career Relevance
+## 07 – Conditional Access
 
-This portfolio supports my professional development towards roles such as:
+Conditional Access is one of the most powerful security capabilities available in Microsoft Entra ID. This chapter demonstrates how access policies are created, assigned and evaluated to protect organisational resources based on user identity, device compliance, location and risk.
 
-- IT Support Technician
-- Service Desk Analyst
-- Microsoft 365 Administrator
-- Identity Administrator
-- Junior Systems Administrator
-- Cloud Support Technician
+### Topics covered
+
+- Conditional Access
+- Policy creation
+- Assignments
+- Cloud apps
+- Access controls
+- Policy evaluation
+- Security policies
+
+### Skills developed
+
+- Conditional Access administration
+- Identity protection
+- Access control
+- Security policy management
 
 ---
 
-## Notes
+## 08 – Device Identities
 
-This repository is a personal learning environment created for educational and portfolio purposes.
+Microsoft Entra ID manages device identities to provide secure access to organisational resources. This chapter explores Microsoft Entra joined, Microsoft Entra registered and Hybrid Microsoft Entra joined devices while demonstrating how devices are administered through the Microsoft Entra Admin Center.
 
-All activities are performed within a dedicated Microsoft cloud test environment.
+### Topics covered
+
+- Device identities
+- Microsoft Entra joined devices
+- Microsoft Entra registered devices
+- Hybrid Microsoft Entra joined
+- Device administration
+- Device properties
+
+### Skills developed
+
+- Device identity management
+- Endpoint identity administration
+- Microsoft Entra administration
+- Identity lifecycle management
 
 ---
 
-## Author
+## 09 – Identity Governance
+
+The final chapter introduces Microsoft Entra Identity Governance and explores how organisations can improve security and compliance by managing identity lifecycles and access reviews.
+
+### Topics covered
+
+- Identity Governance
+- Access reviews
+- Entitlement management
+- Lifecycle workflows
+- Governance overview
+- Identity security
+
+### Skills developed
+
+- Identity governance
+- Access management
+- Compliance administration
+- Microsoft Entra security
+
+---
+
+# Learning Outcomes
+
+By completing this repository, I gained practical experience with Microsoft Entra ID and developed a solid understanding of Microsoft's cloud identity platform and its role within modern enterprise environments.
+
+The key learning outcomes include:
+
+- Understanding Microsoft Entra ID architecture and identity management.
+- Managing users, groups and administrative roles.
+- Configuring authentication methods and Multi-Factor Authentication (MFA).
+- Implementing Self-Service Password Reset (SSPR).
+- Designing and deploying Conditional Access policies.
+- Managing Microsoft Entra device identities.
+- Exploring Identity Governance capabilities.
+- Applying identity security best practices.
+- Producing professional technical documentation using GitHub and Markdown.
+
+---
+
+# Repository Prerequisites
+
+To reproduce this laboratory, the following components are recommended:
+
+- Microsoft 365 tenant
+- Microsoft Entra ID tenant
+- Microsoft 365 Developer Program subscription (or equivalent)
+- Global Administrator account
+- Microsoft Authenticator mobile application
+- Modern web browser
+- Internet connection
+- GitHub account (for documentation and version control)
+
+Although this laboratory was developed using a Microsoft 365 Developer tenant, the administrative concepts and identity management practices demonstrated throughout this repository are directly applicable to production Microsoft Entra ID environments.
+
+---
+
+# Related Repositories
+
+This repository forms part of my **TechLab365 Microsoft Cloud Administration Portfolio**.
+
+The complete learning path includes:
+
+- **TechLab365 – Microsoft 365 Administration Portfolio**
+- **TechLab365 – Microsoft Entra ID Administration Portfolio** *(this repository)*
+- **TechLab365 – Microsoft Intune Administration Portfolio**
+
+Together, these repositories demonstrate my progression from Microsoft 365 tenant administration through identity and access management to modern endpoint management using Microsoft Intune.
+
+---
+
+# Conclusion
+
+This repository documents the practical administration of Microsoft Entra ID, Microsoft's cloud identity and access management platform.
+
+Beginning with an overview of Microsoft Entra ID and progressing through user and group administration, authentication, Conditional Access, device identities and Identity Governance, each chapter documents practical administrative tasks performed within a working Microsoft cloud environment.
+
+Completing this project strengthened my understanding of identity management, authentication and access control while reinforcing the importance of security best practices within enterprise environments.
+
+In addition to developing technical skills, this repository further enhanced my ability to produce structured technical documentation using Markdown and GitHub, creating a professional portfolio that accurately reflects hands-on experience with Microsoft cloud identity administration.
+
+This repository builds directly upon the Microsoft 365 Administration project and provides the identity foundation required before implementing endpoint management in the Microsoft Intune Administration repository.
+
+---
+
+# Author
 
 **Antonio Gabriele Rizzo**
 
-- CompTIA Tech+
-- CompTIA A+
-- Junior Network Engineer
+TechLab365 – Microsoft Cloud Administration Learning Series
+
 - Microsoft 365 Administration
 - Microsoft Entra ID Administration
-- Aspiring Cloud and Infrastructure Professional
+- Microsoft Intune Administration
 
 ---
 
-https://github.com/antonio-gabriele-rizzo
+# License
+
+This project is published for educational and portfolio purposes.
+
+The documentation is based on hands-on experience gained while building a Microsoft Entra ID laboratory using a Microsoft 365 Developer tenant and Microsoft cloud services.
+
+Microsoft, Microsoft Entra ID, Microsoft 365, Microsoft Authenticator, Microsoft Graph and Microsoft Graph PowerShell are trademarks of Microsoft Corporation.
